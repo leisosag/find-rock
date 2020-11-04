@@ -108,7 +108,9 @@ class PageArtist extends Component {
             </div>
           </div>
           <div className="row centrar">
-            <SimilarArtist data={this.state.data.artist.similar.artist} />
+            <div className="col-md-12">
+              <SimilarArtist data={this.state.data.artist.similar.artist} />
+            </div>
           </div>
         </div>
       </React.Fragment>

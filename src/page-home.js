@@ -23,8 +23,7 @@ class PageHome extends Component {
       <React.Fragment>
         <div className="container">
           <div className="row centrado">
-            <div className="col-md-3"></div>
-            <div className="col-md-6 centrar">
+            <div className="col-md-12 centrar">
               <img src={logo} alt="logo" id="logo" />
               <form
                 name="Form"

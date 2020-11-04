@@ -18,13 +18,13 @@ class SearchBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="row mt-3">
-          <div className="col-md-2">
+        <div className="row container mt-3">
+          <div className="col-md-2 ml-5 mt-2 mb-2">
             <Link to="/">
               <img src={logo} alt="logo" className="logo-barra" />
             </Link>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-8">
             <form
               name="Form"
               className="form-inline"
