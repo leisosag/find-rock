@@ -20,7 +20,7 @@ class SearchResults extends Component {
 
     const key = "dff8e6342ad2b6efb4b815551f72b6bb";
     this.fetchAPI(
-      `http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${termino}&api_key=${key}&format=json`
+      `https://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=${termino}&api_key=${key}&format=json`
     );
   }
 
